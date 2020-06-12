@@ -33,7 +33,7 @@ export class CustomerDto {
 
 
     @IsOptional()
-    @IsString({message: "O campo cpf não é uma string válida"})
+    @IsString({message: "O campo CEP não é uma string válida"})
     cep: string;
 
     @IsOptional()
